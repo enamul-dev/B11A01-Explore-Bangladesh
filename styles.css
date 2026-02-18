@@ -62,3 +62,34 @@ nav{
     padding: 1.5em 1em;
     border-radius: 1em;
 }
+
+.vision-divs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+    padding-bottom: 4em ;
+}
+
+.pillar-divs:nth-child(1) .lbtn {
+    background-color: #5490F5;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+}
+
+.pillar-divs:nth-child(2) .lbtn {
+    background-color: #09A15C;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+}
+
+.pillar-divs:nth-child(3) .lbtn {
+    background-color: #FFC239;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1.5em;
+}
