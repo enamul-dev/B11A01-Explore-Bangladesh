@@ -76,6 +76,7 @@ nav{
     border: none;
     border-radius: 0.5em;
     margin-top: 1.5em;
+    color: white;
 }
 
 .pillar-divs:nth-child(2) .lbtn {
@@ -84,6 +85,7 @@ nav{
     border: none;
     border-radius: 0.5em;
     margin-top: 1.5em;
+    color: white;
 }
 
 .pillar-divs:nth-child(3) .lbtn {
@@ -92,4 +94,23 @@ nav{
     border: none;
     border-radius: 0.5em;
     margin-top: 1.5em;
+    color: white;
+}
+
+.section-four{
+ position: relative;
+ background-color: white;
+ padding: 2em 2em;
+ border-radius: 1em;
+ margin-bottom: 4em;
+ 
+}
+
+.quote-img{
+    position: absolute;
+}
+
+h5{
+    font-style: italic;
+    color: gray;
 }
