@@ -47,7 +47,13 @@ nav{
     padding: 3em 0;
     
 }
-
+.explore-btn{
+    background-color: #006A50;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 1em;
+    color: white;
+}
 .pillar-head{
     padding: 3em 0;
 }
@@ -115,6 +121,13 @@ h5{
     color: gray;
 }
 
+
+.section-five{
+    padding: 2em 2em;
+    background-color: white;
+    border-radius: 1em;
+}
+
 th{
     text-align: left;
     margin: 0 1em;
@@ -129,7 +142,7 @@ td > button{
     padding: 0.5em 1em;
     margin: 0.5em 1em;
     background-color: #C6E4D6;
-    
+    font-weight: bold;
 }
 tr > td{
     text-align: center;
@@ -142,9 +155,116 @@ tr > th{
 .table-head{
     background-color: #C6E4D6;
 }
-
-.section-five{
+.satelite{
+    display: flex;
+    align-items: center;
+    gap: 2em;
     padding: 2em 2em;
     background-color: white;
     border-radius: 1em;
+}
+.satelite-img{
+    border-radius: 2em;
+}
+.satelite-btn{
+    background-color: #006A50;
+    color: white;
+    padding: 1em 1em;
+    border: none;
+    border-radius: 1em;
+}
+
+.section-seven{
+    background-color: #C6E4D6;
+   margin-top: 4em;
+     display: flex;
+    justify-content: center;  
+    align-items: center;     
+    text-align: center;  
+    border-radius: 1em;   
+}
+
+form{
+    display: flex;
+     justify-content: center; 
+    align-items: center;      
+    text-align: center;
+    
+}
+.subscribe-form{
+    width: 37.5em;
+    border: none;
+     padding: 0.5em 0.5em;
+     border-radius: 0.5em;
+}
+
+.subscribe-btn{
+    background-color: #006A50;
+    padding: 0.5em 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    color: white;
+    margin-left: 0.5em;
+}
+
+.div-gaps{
+    padding: 4em 4em;
+}
+
+footer{
+    text-align: center;
+    margin: 2em 2em;
+}
+
+
+
+@media (max-width: 933px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        padding-top: 4em;
+    }
+    .Innovation-divs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2em;
+    padding-bottom: 4em ;
+}
+
+.vision-divs{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+    margin: 0 2em;
+    gap: 2em;
+    padding-bottom: 4em ;
+}
+.pillar-head
+{
+    margin: 0 2em;
+}
+
+.satelite{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em 2em;
+    background-color: white;
+    border-radius: 1em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+    align-items: center;      
+    text-align: center;
+    width: 21em;
+    
+}
+
+.subscribe-btn{
+    margin-top: 1em;
+}
+
 }
